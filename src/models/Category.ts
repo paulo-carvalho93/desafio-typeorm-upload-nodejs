@@ -14,9 +14,6 @@ class Category {
   @Column()
   title: string;
 
-  @Column()
-  type: 'income' | 'outcome';
-
   @CreateDateColumn()
   created_at: Date;
 
