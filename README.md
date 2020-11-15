@@ -9,6 +9,20 @@ This will be an application that will connect to my [Challenge 06](https://githu
 
 ## :hammer: Do you want to check it out?
 
+- ### **Prerequisites**
+
+  - It's **necessary** to have **[Node.js](https://nodejs.org/en/)** installed on the computer
+  - It's **necessary** to have **[Git](https://git-scm.com/)** installed and configured on the computer
+  - Also, it's **necessary** to have a package manager either **[NPM](https://www.npmjs.com/)** or **[Yarn](https://yarnpkg.com/)**.
+  - Finally, it is **essential** to have **[Docker](https://www.docker.com/)** installed to run database Postgres.
+  
+ 
+Creating database Postgres:
+
+```sh
+  $ docker run --name gostack_desafio06 -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
+``` 
+
 Clone the repository:
 
 ```sh
